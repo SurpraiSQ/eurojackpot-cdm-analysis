@@ -1,0 +1,121 @@
+{
+  "config": {
+    "data_path": "data\\eurojackpot.csv",
+    "date_format": "%d-%m-%Y",
+    "euro_start_date": "2022-03-25",
+    "report_start_date": "2024-01-01",
+    "report_last_n": 200,
+    "warmup_main": 200,
+    "warmup_euro": 120,
+    "random_seed": 42,
+    "selection": "deterministic_topK",
+    "alpha_mode": "mle",
+    "mle_l2": 0.0,
+    "mle_maxiter": 200,
+    "window": "expanding"
+  },
+  "processed": {
+    "total_rows_in_data": 916,
+    "new_rows_processed_this_run": 916,
+    "total_predictions_rows": 916,
+    "evaluatable_rows_total": 274
+  },
+  "report_window": {
+    "hits": {
+      "avg_main_hits_cdm": 0.5358851674641149,
+      "avg_euro_hits_cdm": 0.3062200956937799,
+      "avg_main_hits_freq": 0.5311004784688995,
+      "avg_euro_hits_freq": 0.3492822966507177,
+      "avg_main_hits_rand": 0.5502392344497608,
+      "avg_euro_hits_rand": 0.3397129186602871,
+      "n_draws": 209,
+      "from": "2024-01-02",
+      "to": "2025-12-30"
+    },
+    "events_cdm": {
+      "cdm_2+1": 0.0430622009569378,
+      "cdm_3+0": 0.004784688995215311,
+      "cdm_3+1": 0.0,
+      "cdm_3+2": 0.0,
+      "cdm_4+0": 0.0,
+      "cdm_4+1": 0.0,
+      "cdm_4+2": 0.0,
+      "cdm_5+0": 0.0,
+      "cdm_5+1": 0.0,
+      "cdm_5+2": 0.0
+    },
+    "events_freq": {
+      "freq_2+1": 0.0430622009569378,
+      "freq_3+0": 0.004784688995215311,
+      "freq_3+1": 0.004784688995215311,
+      "freq_3+2": 0.0,
+      "freq_4+0": 0.0,
+      "freq_4+1": 0.0,
+      "freq_4+2": 0.0,
+      "freq_5+0": 0.0,
+      "freq_5+1": 0.0,
+      "freq_5+2": 0.0
+    },
+    "events_rand": {
+      "rand_2+1": 0.03349282296650718,
+      "rand_3+0": 0.019138755980861243,
+      "rand_3+1": 0.009569377990430622,
+      "rand_3+2": 0.0,
+      "rand_4+0": 0.0,
+      "rand_4+1": 0.0,
+      "rand_4+2": 0.0,
+      "rand_5+0": 0.0,
+      "rand_5+1": 0.0,
+      "rand_5+2": 0.0
+    }
+  },
+  "last_n_window": {
+    "hits": {
+      "avg_main_hits_cdm": 0.535,
+      "avg_euro_hits_cdm": 0.315,
+      "avg_main_hits_freq": 0.53,
+      "avg_euro_hits_freq": 0.355,
+      "avg_main_hits_rand": 0.555,
+      "avg_euro_hits_rand": 0.34,
+      "n_draws": 200,
+      "from": "2024-02-02",
+      "to": "2025-12-30"
+    },
+    "events_cdm": {
+      "cdm_2+1": 0.04,
+      "cdm_3+0": 0.005,
+      "cdm_3+1": 0.0,
+      "cdm_3+2": 0.0,
+      "cdm_4+0": 0.0,
+      "cdm_4+1": 0.0,
+      "cdm_4+2": 0.0,
+      "cdm_5+0": 0.0,
+      "cdm_5+1": 0.0,
+      "cdm_5+2": 0.0
+    },
+    "events_freq": {
+      "freq_2+1": 0.04,
+      "freq_3+0": 0.005,
+      "freq_3+1": 0.005,
+      "freq_3+2": 0.0,
+      "freq_4+0": 0.0,
+      "freq_4+1": 0.0,
+      "freq_4+2": 0.0,
+      "freq_5+0": 0.0,
+      "freq_5+1": 0.0,
+      "freq_5+2": 0.0
+    },
+    "events_rand": {
+      "rand_2+1": 0.03,
+      "rand_3+0": 0.02,
+      "rand_3+1": 0.01,
+      "rand_3+2": 0.0,
+      "rand_4+0": 0.0,
+      "rand_4+1": 0.0,
+      "rand_4+2": 0.0,
+      "rand_5+0": 0.0,
+      "rand_5+1": 0.0,
+      "rand_5+2": 0.0
+    }
+  }
+}
