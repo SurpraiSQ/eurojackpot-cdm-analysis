@@ -11,7 +11,7 @@ No claims of predictability or guaranteed outcomes are made.
 
 ## Repository structure
 
-eurojackpot-cdm-analysis/
+```eurojackpot-cdm-analysis/
 ├─ README.md
 ├─ EuroJackpot Analysis.pdf
 │
@@ -30,7 +30,7 @@ eurojackpot-cdm-analysis/
 │ │├─ predictions.csv
 │ │├─ state.json
 │ │└─ summary.json
-
+```
 
 ---
 
@@ -61,3 +61,4 @@ The modeling approach follows a deterministic, walk-forward evaluation setup.
 - This project is exploratory and analytical in nature.
 - It does not assert that lottery outcomes are predictable.
 - Results are presented for study and discussion purposes only.
+
